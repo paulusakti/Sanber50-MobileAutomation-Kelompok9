@@ -1,0 +1,7 @@
+appLogo:  //andoid.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]
+flyWithPeaceWallpaper:  //andoid.widget.ImageView[@resource-id="com.example.myapplication:id/imageView"]
+flyWithPeaceText: //andoid.widget.TextView[@resource-id="com.example.myapplication:id/textView4"]
+signInButton: //andoid.widget.Button[@resource-id="com.example.myapplication:id/login"]
+bookButton: //andoid.widget.Button[@resource-id="com.example.myapplication:id/button5" and @text="Book"] 
+searchButton: //andoid.widget.Button[@resource-id="com.example.myapplication:id/button6" and @text="Search"] 
+checkInButton: //andoid.widget.Button[@resource-id="com.example.myapplication:id/button7" and @text="Check in"] `

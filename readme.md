@@ -6,4 +6,4 @@
 * Menambahkan / edit file kalian
 
 ## How to run
-* 
+* python -m robot {filename}.robot
