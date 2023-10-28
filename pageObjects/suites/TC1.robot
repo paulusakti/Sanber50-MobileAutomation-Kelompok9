@@ -2,7 +2,6 @@
 Resource    ../base.robot
 Resource    ../homePage/homePage.robot
 Resource    ../loginPage/loginPage.robot
-Library    OperatingSystem
 
 *** Test Cases ***
 Successfully Open Flight Application

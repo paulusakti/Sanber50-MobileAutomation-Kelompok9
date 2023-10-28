@@ -1,6 +1,6 @@
 *** Settings ***
-Resource                ../base.robot
-Variables               homepage_locator.yaml
+Resource         ../base.robot
+Variables        homepage_locator.yaml
 
 *** Keywords ***
 Verify Homepage Appears
@@ -11,6 +11,15 @@ Verify Homepage Appears
 
 Click Button Sign In Home Page
     Click Element    ${signInButton}
+
+Click Button Check In
+    Click Element    ${checkinButton}
+
+Click Button Search
+    Click Element    ${searchButton}
+
+Click Button Book
+    Click Element    ${bookButton}
 
 Verify Signed In
     Wait Until Element Is Visible    ${ngendigitText}
