@@ -1,0 +1,4 @@
+username: //android.widget.EditText[@resource-id="com.example.myapplication:id/username"]
+password: //android.widget.EditText[@resource-id="com.example.myapplication:id/password"]
+loginPageButton: //android.widget.Button[@resource-id="com.example.myapplication:id/signIn"]
+toastInvalid: //android.widget.Toast[@text="Invalid username/password"]
