@@ -16,10 +16,12 @@ Click Button Check In
     Click Element    ${checkinButton}
 
 Click Button Search
-    Click Element    ${searchButton}
+    Wait Until Page Contains    Search
+    Click Text    Search
 
 Click Button Book
-    Click Element    ${bookButton}
+    Wait Until Page Contains    Book
+    Click Text    Book
 
 Verify Signed In
     Wait Until Element Is Visible    ${ngendigitText}

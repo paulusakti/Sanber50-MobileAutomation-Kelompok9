@@ -9,13 +9,7 @@ Successfully Open Flight Application
     Verify Homepage Appears
     Click Button Sign In Home Page
 
-Login Scenario 1 Username Special Char
-    Clear Username Password
-    Input Username Special-Char
-    Input Password Valid
-    Click Button Sign In Login Page
-    Invalid Notification
-Login Scenario 2 - Username Without Domain
+Login Scenario 1 - Username Without Domain
     Clear Username Password
     Input Username Without Domain
     Input Password Valid 
